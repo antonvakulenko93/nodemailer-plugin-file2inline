@@ -1,0 +1,30 @@
+{
+  "name": "nodemailer-plugin-file2inline",
+  "version": "1.0.0",
+  "description": "Nodemailer plugin that will inline external files",
+  "main": "src/plugin.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "jasmine-node test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maxgalbu/nodemailer-plugin-file2inline.git"
+  },
+  "keywords": [
+    "nodemailer",
+    "plugin",
+    "base64",
+    "attachment"
+  ],
+  "author": "Massimo Galbusera <max.galbusera@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxgalbu/nodemailer-plugin-file2inline/issues"
+  },
+  "homepage": "https://github.com/maxgalbu/nodemailer-plugin-file2inline"
+}
