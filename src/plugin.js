@@ -29,13 +29,14 @@ function getCid(options, attachments) {
       return attachments[filePath].cid;
     }
 
+    var randomCid = (options.cidPrefix || '') + crypto.randomBytes(8).toString('hex');
+
     attachments[filePath] = {
-      cid: cid,
+      cid: randomCid,
       path: filePath,
       contentDisposition: 'inline'
     };
-
-    var randomCid = (options.cidPrefix || '') + crypto.randomBytes(8).toString('hex');
+    
     return randomCid;
   };
 }
