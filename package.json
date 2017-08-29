@@ -1,6 +1,6 @@
 {
   "name": "nodemailer-plugin-file2inline",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nodemailer plugin that will inline external files",
   "main": "src/plugin.js",
   "directories": {
