@@ -43,4 +43,9 @@ describe('file2inline plugin', function() {
     var html = '<img src="data:image\/png;base64,abc">';
     expect(replaceFiles(defaultOptions, html, getCid)).toBe(html);
   });
+
+  it('should not touch non existing images', function() {
+    var html = '<img src="not-an-image.png">';
+    expect(replaceFiles(defaultOptions, html, getCid)).toBe(html);
+  });
 });
