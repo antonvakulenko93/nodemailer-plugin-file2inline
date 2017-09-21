@@ -1,6 +1,6 @@
 var fs = require("fs");
 var crypto = require('crypto');
-var replaceFiles = require(__dirname + "./replace");
+var replaceFiles = require(__dirname + "/replace");
 
 function getCid(options, attachments) {
   return function(filePath) {
