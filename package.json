@@ -1,32 +1,63 @@
 {
-  "name": "nodemailer-plugin-file2inline",
-  "version": "1.0.3",
-  "description": "Nodemailer plugin that will inline external files",
-  "main": "src/plugin.js",
-  "directories": {
-    "test": "test"
+  "_args": [
+    [
+      "nodemailer-plugin-file2inline@1.0.3",
+      "/home/pawskal/Documents/kozak-group/chirpy/chirpy-api"
+    ]
+  ],
+  "_from": "nodemailer-plugin-file2inline@1.0.3",
+  "_id": "nodemailer-plugin-file2inline@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha1-qHCAkzfmAPEGh20DugbLYlfJCZw=",
+  "_location": "/nodemailer-plugin-file2inline",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "nodemailer-plugin-file2inline@1.0.3",
+    "name": "nodemailer-plugin-file2inline",
+    "escapedName": "nodemailer-plugin-file2inline",
+    "rawSpec": "1.0.3",
+    "saveSpec": null,
+    "fetchSpec": "1.0.3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nodemailer-plugin-file2inline/-/nodemailer-plugin-file2inline-1.0.3.tgz",
+  "_spec": "1.0.3",
+  "_where": "/home/pawskal/Documents/kozak-group/chirpy/chirpy-api",
+  "author": {
+    "name": "Massimo Galbusera",
+    "email": "max.galbusera@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/maxgalbu/nodemailer-plugin-file2inline/issues"
   },
   "dependencies": {},
+  "description": "Nodemailer plugin that will inline external files",
   "devDependencies": {
     "jasmine-node": "^1.14.5"
   },
-  "scripts": {
-    "test": "jasmine-node test/"
+  "directories": {
+    "test": "test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/maxgalbu/nodemailer-plugin-file2inline.git"
-  },
+  "homepage": "https://github.com/maxgalbu/nodemailer-plugin-file2inline",
   "keywords": [
     "nodemailer",
     "plugin",
     "base64",
     "attachment"
   ],
-  "author": "Massimo Galbusera <max.galbusera@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/maxgalbu/nodemailer-plugin-file2inline/issues"
+  "main": "src/plugin.js",
+  "name": "nodemailer-plugin-file2inline",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maxgalbu/nodemailer-plugin-file2inline.git"
   },
-  "homepage": "https://github.com/maxgalbu/nodemailer-plugin-file2inline"
+  "scripts": {
+    "test": "jasmine-node test/"
+  },
+  "version": "1.0.3"
 }
